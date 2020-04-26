@@ -1,2 +1,2 @@
-docker build -t linux_tweet_app-master .
-docker container run --detach -p 80:80 linux_tweet_app-master
+docker build -t profile_app .
+docker container run --detach -p 80:80 profile_app
