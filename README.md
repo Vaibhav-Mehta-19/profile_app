@@ -18,6 +18,7 @@ Steps:
 3.	Create a new folder and name the folder for example “Resume_webapp” and then copy both the HTML file and the Dockerfile provided above into that folder.
 4.	Open the terminal in the same folder and run the following commands:
 	   >docker build -t Resume_webapp .
+	   
 	   >docker container run --detach -p 80:80 Resume_webapp
 5.	These commands will run the dockerfile present in the folder. The dockerfile will automatically install the latest nginx server, copy the html file mentioned to html folder of nginx, expose the port and will start the required services. 
 6.	You can now open the browser and visit “http://your-system-ip” and view that the webapp has been launched.
